@@ -12,11 +12,11 @@ const siteConfig = {
     description:
       'Christ University 29 \n' +
       'Passionate about Public Policy, Data & Finance\n' +
-      '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
-      '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: '',
+      'Theatre Artist\n' +
+      'Mood Indigo 2025 Street Play 3rd place\n' +
+      'Cricket, Tennis, Geopolitics, Politics\n' +
+      '',
+    tagline: 'Esala Cup Namdu',
     location: 'Kolkata, India',
   },
 
@@ -54,14 +54,14 @@ const siteConfig = {
       degree: 'BSc Economics and Data Science',
       year: '2025-2029',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
+      description: ['Public Policy and Economics'],
     },
     {
       institution: 'IVWS',
       degree: 'Higher Senior Secondary',
       year: '2025',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['How to deal with failures'],
     },
   ],
 
