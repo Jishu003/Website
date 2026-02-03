@@ -12,7 +12,7 @@ const siteConfig = {
     description:
       'Christ University 29 \n' +
       'Passionate about Public Policy, Data & Finance\n' +
-      'Theatre Artist\n' +
+      'Theater Artist\n' +
       'Mood Indigo 2025 Street Play 3rd place\n' +
       'Cricket, Tennis, Geopolitics, Politics\n' +
       '',
@@ -94,7 +94,7 @@ const siteConfig = {
       desp: ['Brief responsibility 1', 'Brief responsibility 2'],
     },
     {
-      title: 'Theatre Artist',
+      title: 'Theater Artist',
       cardImage: getAsset('images/experience/placeholder.png'),
       place: 'Zariya Productions',
       time: '(June 2025 – Present)',
