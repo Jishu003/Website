@@ -6,27 +6,26 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Upanshu Sil',
+    title: 'First Year Economics and Data Science Student',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
-      '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Christ University 29 \n' +
+      'Passionate about Public Policy, Data & Finance\n' +
       '\n' +
       'Summarize your education or certifications briefly and highlight your practical work.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: '',
+    location: 'Kolkata, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Upanshu Sil',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Student', 'Economics', 'Public Policy and Finance', 'Builder'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -51,16 +50,16 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ (Deemed to be university)',
+      degree: 'BSc Economics and Data Science',
+      year: '2025-2029',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'IVWS',
+      degree: 'Higher Senior Secondary',
+      year: '2025',
       image: getAsset('images/education/placeholder.png'),
       description: ['Key topics or skills learned'],
     },
@@ -88,17 +87,17 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Photographer',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
+      place: 'SWO, BRC',
+      time: '(June 2025 – Present)',
       desp: ['Brief responsibility 1', 'Brief responsibility 2'],
     },
     {
-      title: 'Previous Role',
+      title: 'Theatre Artist',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
-      time: '(MMM YYYY – MMM YYYY)',
+      place: 'Zariya Productions',
+      time: '(June 2025 – Present)',
       desp: ['Key contribution 1', 'Key contribution 2'],
     },
   ],
